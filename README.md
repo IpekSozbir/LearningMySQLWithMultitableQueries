@@ -1,4 +1,5 @@
-# 📊 MySQLQueriesFundamentals Projesi
+# 📊 LearningMySQLWithMultitableQueries
+ Projesi
 
 Bu repo, **MySQL** kullanılarak **SQL (Structured Query Language)** öğrenme sürecinde hazırlanmış, başlangıç seviyesinden ileri seviyeye doğru ilerleyen sorgu örneklerini ve pratik senaryoları içermektedir.  
 Proje, **ilişkisel veritabanı mantığını kavramak**, **veri ile etkili şekilde çalışmak** ve **gerçek projelerde kullanılan SQL yapılarını öğrenmek** amacıyla oluşturulmuştur.
@@ -11,7 +12,7 @@ Proje, **MySQL Workbench** üzerinde çalışılmak üzere hazırlanmış `.sql`
 Her gün, bir önceki günün üzerine yeni SQL yetenekleri eklenerek ilerler.
 
 ```plaintext
-MySQLQueriesFundamentals/
+LearningMySQLWithMultitableQueries/
 ├── Day01_Q01_Ilk_Islemler.sql          # Veritabanı ve tablo oluşturma temelleri
 ├── Day02/                              # Tablo yapıları, veri ekleme ve temel modifikasyonlar
 ├── Day03/                              # Filtreleme (WHERE) ve kalıplar (LIKE, REGEXP)
@@ -116,7 +117,8 @@ MySQLQueriesFundamentals/
 ### 1. Depoyu Klonlayın
 
 ```bash
-git clone https://github.com/KULLANICI_ADINIZ/MySQLQueriesFundamentals.git
+git clone https://github.com/KULLANICI_ADINIZ/LearningMySQLWithMultitableQueries
+.git
 ```
 
 ### 2. MySQL Workbench'i Açın
@@ -147,7 +149,7 @@ Bu proje ile amaçlanan:
 
 ---
 
-# 📊 MySQLQueriesFundamentals Project
+# 📊 LearningMySQLWithMultitableQueries Project
 
 This repository contains query examples and practical scenarios prepared during the process of learning **SQL (Structured Query Language)** using **MySQL**, progressing from beginner to advanced level.  
 The project was created to **understand relational database logic**, **work effectively with data**, and **learn SQL structures used in real-world projects**.
@@ -160,7 +162,7 @@ The project consists of `.sql` files prepared to be run on **MySQL Workbench**.
 Each day builds on the previous one by adding new SQL skills.
 
 ```plaintext
-MySQLQueriesFundamentals/
+LearningMySQLWithMultitableQueries/
 ├── Day01_Q01_Ilk_Islemler.sql          # Database and table creation fundamentals
 ├── Day02/                              # Table structures, data insertion, and basic modifications
 ├── Day03/                              # Filtering (WHERE) and patterns (LIKE, REGEXP)
@@ -193,5 +195,69 @@ MySQLQueriesFundamentals/
 - Updating data (`UPDATE`)
 - Deleting data (`DELETE`)
 - Basic table modification operations
+
+---
+
+### 3. 🔍 Filtering and Pattern Matching (Day 03)
+**Folder:** `Day03`
+
+**Scope:**
+- `WHERE` conditions
+- Logical operators (`AND`, `OR`)
+- Using `LIKE`
+- Advanced filtering with `REGEXP`
+
+---
+
+### 4. 📊 Sorting and Aggregate Functions (Day 04)
+**Folder:** `Day04`
+
+**Scope:**
+- `ORDER BY`
+- `LIMIT`
+- Aggregate functions:
+  - `MAX`
+  - `MIN`
+  - `AVG`
+  - `COUNT`
+
+---
+
+### 5. 🗂️ Grouping and Constraints (Day 05)
+**Folder:** `Day05`
+
+**Scope:**
+- Using `GROUP BY`
+- Preparation for `HAVING`
+- Constraints (`NOT NULL`, `UNIQUE`, `CHECK`)
+- Foreign Key (FK) concept
+
+---
+
+### 6. 🔄 Subqueries and Update Operations (Day 06)
+**Folder:** `Day06`
+
+**Scope:**
+- Subqueries
+- `IN`, `EXISTS`, `NOT EXISTS`
+- Using subqueries within `SELECT`
+- `UPDATE` operations with related tables
+- Parent / Child table safety
+
+---
+
+### 7. 🔗 JOIN, UNION, and Advanced Queries (Day 07)
+**Folder:** `Day07`
+
+**Scope:**
+- `INNER JOIN`
+- `LEFT JOIN`
+- `RIGHT JOIN`
+- `FULL JOIN`
+- `UNION` / `UNION ALL`
+- Group filtering with `HAVING`
+- `DELETE`, `TRUNCATE`
+- `ON DELETE CASCADE`
+- `SAVEPOINT` and `ROLLBACK`
 
 ---
