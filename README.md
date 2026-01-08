@@ -117,8 +117,7 @@ LearningMySQLWithMultitableQueries/
 ### 1. Depoyu Klonlayın
 
 ```bash
-git clone https://github.com/KULLANICI_ADINIZ/LearningMySQLWithMultitableQueries
-.git
+git clone https://github.com/IpekSozbir/LearningMySQLWithMultitableQueries.git
 ```
 
 ### 2. MySQL Workbench'i Açın
@@ -267,7 +266,7 @@ LearningMySQLWithMultitableQueries/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/LearningMySQLWithMultitableQueries.git
+git clone https://github.com/IpekSozbir/LearningMySQLWithMultitableQueries.git
 ```
 
 ### 2. Open MySQL Workbench
